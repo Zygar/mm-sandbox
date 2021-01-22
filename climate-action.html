@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mindful Money Sandbox</title>
+</head>
+
+<body>
+    <style>
+        .mm-pretty-report {
+            font-size: 1.1em;
+            max-width: 42em;
+        }
+
+        .mm-pretty-report h1 {
+            font-size: 3rem;
+        }
+
+        .mm-pretty-report h2 {
+            font-size: 2.1rem;
+        }
+
+        .mm-pretty-report h3 {
+            font-size: 1.35rem;
+
+        }
+
+        .mm-pretty-report h4 {
+            font-size: 1em;
+        }
+
+        .mm-pretty-report section {
+            padding-top: 6em;
+            background-image: url(stairs-section-separator.png);
+            background-repeat: no-repeat;
+            background-position: -136px -307px;
+            background-size: 660px;
+            margin-top: 5em;
+        }
+
+        .mm-pretty-report blockquote {
+            font-style: normal;
+            font-size: 1.25em;
+            line-height: 1.6em;
+            position: relative;
+            padding-left: 1em;
+        }
+
+        .mm-pretty-report figure {
+            margin: 2.5em 0;
+        }
+
+        .mm-pretty-report figcaption {
+            font-family: 'Questrial', sans-serif;
+            font-style: normal;
+            padding-left: 1em;
+        }
+
+        .section-intro {
+            padding-left: 130px;
+            margin-bottom: 4em;
+        }
+
+        .lead {
+            font-size: 1.25em;
+            margin-bottom: 2em;
+        }
+
+        .colored-border-top {
+            border-top: 4px solid #33af9e;
+        }
+
+        .eig-box {
+            margin: 2em 0;
+            padding: 1.5em;
+        }
+
+        .eig-colored-box {
+            background-color: #eee;
+        }
+
+        .eig-bright-box {
+            background-color: #f5f3f3;
+            box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        }
+
+        /* LISTS INSIDE BOXES */
+        .no-list-style {
+            list-style: none;
+        }
+
+        .eig-box ul {
+            margin-left: 0;
+
+        }
+
+        .eig-box li {
+            margin-bottom: 0.25em;
+        }
+
+        .eig-box li::before {
+            content: "→";
+            margin-right: .5em;
+        }
+
+        .pullout {
+            padding: 1.5em;
+            background-color: #eee;
+        }
+
+        /* This is used for side-by-side alignment e.g. in the Ethical Investment definition */
+        .layout-flex {
+            display: flex;
+            align-items: center;
+        }
+
+
+        .cta-inset {
+            padding: 4em;
+            text-align: center;
+            background-color: #f3f3f3;
+            margin: 2em auto;
+            box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+            border-top: 10px solid rgba(19, 145, 198, 0.7);
+            border-radius: 4px;
+        }
+
+        .cta-inset>* {
+            max-width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-inset .button {
+            margin: 1em auto;
+            padding: 1em 2em;
+            display: inline-block;
+            font-size: 1.25em;
+            width: auto;
+        }
+    </style>
+    <div id="invest-for-climate-action" class="mm-pretty-report">
+        <section id="invest-climate-action-intro">
+            <div class="section-intro">
+                <h1>Invest for climate action: Free your funds from fossil fuels</h1>
+                <p class="lead">Mindful Money's calculations show that $961 million of KiwiSaver
+                    money and $622 million of other NZ managed funds is invested in
+                    companies that are involved in fossil fuel extraction and production
+                    (analysis of March 2020 data). If you don’t want your money to be part
+                    of it, switch to one of the funds listed below and join the global
+                    divestment movement.</p>
+            </div>
+
+            <p>Climate change stems from a serious economic failure to live within
+                our ecological boundaries, and economic solutions are needed to regain a
+                stable climate. Finance is central to those changes. Money fuels the
+                economy, so the challenge is to direct the flows of funds to businesses
+                that will reduce emissions and to invest in adapting to a far more
+                volatile climate.</p>
+            <p>The<a href="https://en.wikipedia.org/wiki/Fossil_fuel_divestment" target="_blank"> <strong>global
+                        divestment campaign</strong></a>
+                has seen institutions (such as Auckland and Dunedin Councils; Otago,
+                Victoria and Auckland Universities; the Anglican Church), countries
+                (like Ireland) and investment funds go “fossil free”. As at April 2020,
+                $14 trillion of investment funds had been divested worldwide. The
+                campaign is not only de-legitimising the fossil fuel industry, it is <a
+                    href="https://www.theguardian.com/commentisfree/2018/dec/16/divestment-fossil-fuel-industry-trillions-dollars-investments-carbon?CMP=share_btn_link"
+                    target="_blank">speeding up the phase out of coal</a> and oil and gas. You can join the NZ campaign
+                for institutions to divest through our partner organisation, <a href="https://350.org.nz/"
+                    target="_blank">350 Aotearoa</a>.</p>
+            <p>It’s not only a sound moral decision to help stop greenhouse gas emissions to avoid climate catastrophe,
+                but <strong>a sound financial decision </strong>– up to 80% of fossil fuel reserves are at risk from
+                becoming <a href="https://www.carbontracker.org/terms/stranded-assets/" target="_blank">stranded
+                    assets</a>, with little value as fossil fuels are phased out.&nbsp; <a
+                    href="http://www.lse.ac.uk/GranthamInstitute/news/the-mythical-peril-of-divesting-from-fossil-fuels/"
+                    target="_blank">Authoritative research</a>
+                shows that divestment from fossil fuels in recent decades has not
+                resulted in lower returns There are compelling reasons for divesting
+                now. <strong>Going fossil free is good for you and good for the future of our planet.</strong> We have
+                recently<a href="https://mindfulmoney.nz/news/entry/myth-busting/"> shown the evidence</a> of a huge
+                financial loss experienced by investors in the coal, oil and gas sectors.</p>
+            <p>Now you can<strong> go fossil free with your KiwiSaver or other investment portfolio.</strong> The funds
+                below all have a fossil free policy. <br></p>
+            <p><em>Note: </em><em>Our research has found that not all of these funds
+                    are entirely free from fossil fuels yet - some have a few companies in
+                    their indirect holdings and are working to divest completely. </em></p>
+            <p>Switch to one of the funds listed below or use the Fund Finder to find <a
+                    href="https://mindfulmoney.nz/kiwisaver/finder/">a KiwiSaver fund</a> or <a
+                    href="https://mindfulmoney.nz/managed/finder/">other investment fund</a> that matches your criteria.
+            </p>
+        </section>
+        <section id="kiwisaver-fossil-free">
+            <div class="section-intro">
+                <h1>KiwiSaver Mindful Funds with a Fossil Fuel Free Policy</h1>
+                <p class="lead">Placeholder leadd text section.</p>
+            </div>
+            <p><a href="http://mindfulmoney.nz/kiwisaver/FND1287/booster-socially-responsible-investment-balanced-f/">Booster
+                    Socially Responsible Investment Balanced Fund<br></a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND1288/booster-socially-responsible-investment-high-growt/">Booster
+                    Socially Responsible Investment High Growth Fund</a> <br></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND17971/booster-socially-responsible-investment-moderate-f/">Booster
+                    Socially Responsible Investment Moderate Fund</a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND14931/caresaver-balanced-fund/">CareSaver Balanced
+                    Fund</a><a href="https://mindfulmoney.nz/kiwisaver/FND14932/caresaver-conservative-fund/"></a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND14932/caresaver-conservative-fund/">CareSaver Conservative
+                    Fund</a><a href="https://mindfulmoney.nz/kiwisaver/FND14930/caresaver-growth-fund/"></a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND14930/caresaver-growth-fund/">CareSaver Growth Fund</a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND824/quaystreet-socially-responsible-investment-fund/">QuayStreet
+                    Socially Responsible Investment Fund</a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND7229/simplicity-guaranteed-income-fund/">Simplicity
+                    Guaranteed Income Fund</a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND697/simplicity-growth-fund/">Simplicity Growth Fund</a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND696/simplicity-balanced-fund/">Simplicity Balanced Fund
+                </a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND695/simplicity-conservative-fund/">Simplicity Conservative
+                    Fund</a></p>
+            <p><a href="https://mindfulmoney.nz/kiwisaver/FND2458/superlife-ethica/">SuperLife Ethica Fund</a></p>
+
+        </section>
+
+        <section id="managed-fossil-free">
+            <div class="section-intro">
+                <div class="section-intro">
+                    <h1>Managed Funds with a Fossil Fuel Free Policy</h1>
+                    <p class="lead">Placeholder leadd text section.</p>
+                </div>
+            </div>
+            <div id="manged-funds-fossil-fuel-free" class="colored-border-top   eig-box   eig-bright-box">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a faucibus metus. Morbi fermentum turpis
+                    ac sem porttitor ornare. Ut est mi, dictum et ultricies vel, accumsan id elit. </p>
+                <ul class="no-list-style">
+                    <li><a
+                            href="https://mindfulmoney.nz/managed/FND87/amp-capital-ethical-investment-leaders-global-shar/">AMP
+                            Capital Ethical Investment Leaders Global Shares Fund</a></li>
+                    <li><a
+                            href="https://mindfulmoney.nz/managed/FND81/amp-capital-ethical-investment-leaders-hedged-glob/">AMP
+                            Capital Ethical Investment Leaders Hedged Global Fixed Interest Fund</a></li>
+                    <li><a
+                            href="https://mindfulmoney.nz/managed/FND94/amp-capital-ethical-investment-leaders-nz-shares-f/">AMP
+                            Capital Ethical Investment Leaders NZ Shares Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND101/amp-capital-ethical-leaders-balanced-fund/">AMP
+                            Capital
+                            Ethical Investment Leaders Balanced Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND100/amp-capital-ethical-leaders-conservative-fund/">AMP
+                            Capital Ethical Investment Leaders Conservative Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND1301/booster-socially-responsible-balanced-fund/">Booster
+                            Socially Responsible Investment Balanced Fund</a></li>
+                    <li><a
+                            href="https://mindfulmoney.nz/managed/FND1302/booster-socially-responsible-high-growth-fund/">Booster
+                            Socially Responsible Investment High Growth Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND1300/booster-socially-responsible-moderate-fund/">Booster
+                            Socially Responsible Investment Moderate Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND7234/pathfinder-global-responsibility-fund/">Pathfinder
+                            Global Responsibility Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND1229/pathfinder-global-water-fund/">Pathfinder
+                            Global Water
+                            Fund</a></li>
+                    <li><a
+                            href="https://mindfulmoney.nz/managed/FND319/quaystreet-socially-responsible-investment-fund/">QuayStreet
+                            Socially Responsible Investment Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND4542/simplicity-balanced-investment-fund/">Simplicity
+                            Balanced Investment Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND4543/simplicity-conservative-investment-fund/">Simplicity
+                            Conservative Investment Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND4544/simplicity-growth-investment-fund/">Simplicity
+                            Growth
+                            Investment Fund</a></li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND9381/simplicity-nz-bond-fund/">Simplicity NZ
+                            Bond
+                            Fund</a>
+                    </li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND9382/simplicity-nz-share-fund/">Simplicity NZ
+                            Share
+                            Fund</a>
+                    </li>
+                    <li><a href="https://mindfulmoney.nz/managed/FND2400/superlife-ethica/">SuperLife Ethica
+                            Fund</a>
+                    </li>
+                </ul>
+            </div>
+            <p>There are other funds that have a different approach. Instead of
+                divesting, they engage with the companies they invest in to improve
+                their performance (e.g. in switching their business to more renewable
+                energy). These <a href="https://mindfulmoney.nz/pages/10/higher-standards/">“higher standards”
+                    companies</a> on the Mindful Money website are certified for their fund management and
+                engagement:
+            </p>
+            <ul>
+                <li>Kiwi Wealth</li>
+                <li>Mercer</li>
+            </ul>
+            <p><strong>Note</strong>: Medical Assurance Society, Whai Rawa, NZ Funds, Mint Asset Management and
+                Hunter
+                also have fossil-free investment policies.</p>
+            <p>For more background, visit the blogs<a href="https://mindfulmoney.nz/news/entry/myth-busting/"> Myths
+                    about Divestment</a>,<a href="https://mindfulmoney.nz/news/entry/who/"> Who caused Climate
+                    Change</a> and <a href="https://mindfulmoney.nz/news/entry/financing-zero/">Financing Zero</a>
+                on
+                Mindful Money.</p>
+        </section>
+
+        <section id="investment-report-intro">
+
+            <div class="section-intro">
+                <h1>You have the right to decide what your money is supporting.</h1>
+                <p class="lead">We have created this guide so you can feel secure, empowered, and confident in whatever
+                    financial decisions you make.</p>
+            </div>
+            <p>If you want to write nore of an intro here, along the lines of "Hey, this report is going to teach you
+                how to spot where your money is; and why moving it is a powerful act. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Ut a faucibus metus. Morbi fermentum turpis ac
+                sem porttitor ornare. Ut est mi, dictum et ultricies vel, accumsan id elit. </p>
+            <p>Proin tempus, sapien vehicula commodo egestas, nisi eros tincidunt ante, rutrum facilisis leo augue et
+                risus. Quisque eros risus, lobortis ac vulputate sagittis, varius quis dolor. </p>
+            <aside id="table-of-contents">
+                <nav class="eig-box  eig-bright-box" style="border-top: 4px solid #33af9e">
+                    <h4>Topics Mindful Money's Ethical Investment Guide will be Covering:</h4>
+                    <ul>
+                        <li><a href="#why-invest">Why invest ethically? </a></li>
+                        <li><a href="#how-invest-ethically">What are the different ways to invest ethically?</a></li>
+                        <li><a href="#where-is-your-money">Where is your&nbsp;money is invested? (hint it's probably not
+                                ethical...)</a></li>
+                        <li><a href="#how-to-switch">How do I switch to Ethical Investing?</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </section>
+
+        <aside id="what-is-ethical-investment" class="eig-box eig-bright-box  layout-flex" style="margin-bottom:4em;">
+            <h3 style="margin-right:1em;">What is Ethical Investment?</h3>
+            <p>Ethical investment is what happens when you match your values about real-world impact to your goals
+                for a
+                financial return. </p>
+        </aside>
+
+        <section id="why-invest">
+            <div class="section-intro">
+                <h1>Why Invest Ethically?</h1>
+                <p class="lead">Most Kiwis are aware of ways that their purchases have an impact on climate change, the
+                    environment, or people. </p>
+            </div>
+
+            <p>Not buying factory-farmed eggs or cosmetics tested on animals. Choosing fair trade, less carbon-intensive
+                or lower waste products. Walking more and driving less. These are all small changes in our lives that
+                collectively put pressure on companies to change their behaviour.</p>
+            <p><strong>Investing is no different. How we choose to invest our money makes a real impact.</strong></p>
+            <p>It’s up to you to decide whether that’s a negative or positive impact.</p>
+            <figure>
+                <blockquote>
+                    <p>Buying local produce, shopping without plastic, and purchasing ethically made clothing are
+                        excellent decisions, but investing your money in ethical funds can have a much bigger impact on
+                        people and the planet. Mindful Money enables exactly that.</p>
+                </blockquote>
+                <figcaption>—Kate Hall, <cite>Ethically Kate</cite></figcaption>
+            </figure>
+            <br>
+            <h2>You can earn good returns</h2>
+            <p>It’s a myth that investing ethically means lower returns. In fact, <a
+                    href="https://mindfulmoney.nz/pages/7/returns/">research</a> has shown that ethical investing earn
+                returns that are as high or higher than conventional investing. </p>
+            <br>
+            <h3>Why are the returns on ethical investment proving so high?</h3>
+            <p>This is because companies with high sustainability standards are the most <strong><em>trusted
+                    </em></strong>companies. They have loyal customers and motivated employees. They have lower risks –
+                they don’t get sued for environmental damage and they don’t operate in declining industries like coal or
+                oil. As a result, their financial returns are high.</p>
+            <p>By contrast, there has been a string of companies that have behaved badly and suffered financially as a
+                result - VW, BP, Enron, Solid Energy (Pike River mine). </p>
+            <figure style="max-width: 410px;"><img
+                    src="/media/thumbnails/pages/image/cd/indexpng900x0-q90-crop-smart-upscale.png.900x0_q90_crop-smart_upscale.png"
+                    data-image="pages_page_11" width="410" height="396" alt="AMY TO WRITE ALT TEXT HERE"></figure>
+
+            <p>As an example, the chart above shows the value of investments in fossil fuel companies over the past ten
+                years. Since 2015, there have been ample warnings about the high risk of unusable oil, gas and coal
+                reserves – our planet would fry if we used them all. These ‘stranded assets’ are likely to be worthless.
+            </p>
+            <p>This chart shows the trend. Over the past 5 years, the average price of shares (S&P500 index) has almost
+                doubled while the Oil & Gas Index has halved (Orange), and coal has collapsed (Blue). More than half the
+                coal mines in the US have <a
+                    href="https://arstechnica.com/tech-policy/2019/02/trump-doesnt-mention-coal-in-state-of-the-union/">shut
+                    down </a>and the biggest coal company <a
+                    href="https://www.washingtonpost.com/news/energy-environment/wp/2016/04/13/coal-titan-peabody-energy-files-for-bankruptcy/?noredirect=on&utm_term=.18901f399f99">went
+                    into bankruptcy</a>. By contrast, cleantech and sustainability sectors are growing rapidly.</p>
+            <br>
+        </section>
+
+        <section id="where-is-your-money">
+            <div class="section-intro">
+                <h1>Where is Your Money Currently?</h1>
+                <p class="lead">Do you know where your money is currently being invested? It’s important to know which
+                    companies you are funding, and what those companies do.&nbsp;</p>
+            </div>
+
+
+            <p>It’s easy to find out, all you will need to know is:</p>
+            <ul>
+                <li>Which KiwiSaver fund or investment fund provider you are with</li>
+                <li>What type of fund you are in (conservative, growth, etc).</li>
+            </ul>
+
+
+            <div class="cta-inset">
+                <h2>Try it – you’ll be surprised!</h2>
+                <p class="lead">We have created a simple checker that can be used to find out what your money is
+                    currently being invested in.</p>
+                <a href="https://mindfulmoney.nz/kiwisaver/" class="button">Check your fund</a>
+                <p><small>Don’t know who your KiwiSaver fund is with? No worries, you can find this out through MyIR
+                        or
+                        by
+                        calling 0800 KiwiSaver. </small></p>
+            </div>
+            <p>This checker gives you the full picture – not just the companies your fund invests indirectly, but
+                also the indirect investments through the funds they invest in.</p>
+            <p>Your investments are matched with the issues that most Kiwis are concerned about, as measured through
+                our <a href="https://mindfulmoney.nz/news/entry/consumers-money-ethical-investing/">annual
+                    surveys.</a></p>
+            <p>You can then decide whether that’s OK or if you’d like to find a more ethical option.</p>
+
+            <figure>
+                <blockquote>
+                    <p>I thought I was already invested in an ethical KiwiSaver. However, Mindful Money showed me
+                        that there is a difference between what I call "responsible" investing and what the big
+                        banks do. Plus it made taking action on this information really easy.</p>
+                </blockquote>
+                <figcaption>— Tania Hack</figcaption>
+            </figure>
+            <p>Even though most Kiwis want their fund providers to avoid unethical investments, $4.1 billion of
+                KiwiSaver funds are invested in the sectors that are of most concern. </p>
+            <p>Choosing a fund that aligns with your values will ensure that your money isn’t being used to fund
+                harmful impacts, but instead, is used to support good companies and positive impacts.</p>
+        </section>
+
+        <section id="how-invest-ethically">
+            <div class="section-intro">
+                <h1>What are the Different Ways to Invest Ethically?</h1>
+                <p class="lead">Sorry about the jargon-busting, but it’s important to understand the different ways you
+                    can invest ethically.</p>
+            </div>
+
+            <dl class="compare-fund-types">
+                <div id="compare-traditional" class="fund-type">
+                    <dt>Traditional Funds</dt>
+                    <dd>
+                        <p>These are most investment funds. Their purpose is to manage risk and earn returns, and
+                            they
+                            ignore the impact the companies have on the environment and society.</p>
+                    </dd>
+                </div>
+                <div id="compare-ethical" class="fund-type">
+                    <dt>Ethical or Responsible Investing</dt>
+                    <dd>
+                        <p>There are three main approaches.</p>
+                        <dl>
+                            <div id="compare-ethical-avoid-harm" class="fund-sub-type">
+                                <dt>Avoid harm</dt>
+                                <dd>
+                                    <p>These funds screen out the sectors
+                                        which cause social or environmental harm, for example, tobacco, fossil
+                                        fuels,
+                                        etc.</p>
+                                </dd>
+                            </div>
+                            <div id="compare-ethical-be-okay" class="fund-sub-type">
+                                <dt>Engage</dt>
+                                <dd>
+                                    <p>Most funds now use Environmental,
+                                        Social, and Governance (ESG) factors to evaluate companies and reduce their
+                                        risks. These
+                                        funds usually exclude the worst companies and engage with others as an
+                                        active
+                                        shareholder to
+                                        improve their ESG performance</p>
+                                </dd>
+                            </div>
+                            <div id="compare-ethical-be-good" class="fund-sub-type">
+                                <dt>Better companies</dt>
+                                <dd>
+                                    <p>Some funds target investments into businesses
+                                        with higher ESG or sustainability standards like All Good Organics or
+                                        Kathmandu</p>
+                                </dd>
+                            </div>
+                        </dl>
+                    </dd>
+                </div>
+                <div id="compare-impact" class="fund-type">
+                    <dt>Impact Investing</dt>
+                    <dd>
+                        <p>Investing to directly create a measurable, positive impact,
+                            while still making a financial return. Examples of ‘impact investing’ are renewable
+                            energy,
+                            social housing or healthcare. A related, but broader concept is <a
+                                href="https://theconnective2020.files.wordpress.com/2020/09/tikanga-led-impact-investment-01-moving-closer-to-a-macc84ori-world-view-4.pdf">tikanga-led
+                                investing</a>, which has embodies this approach within a Māori workview.</p>
+                    </dd>
+                </div>
+            </dl>
+
+            <div class="cta-inset">
+                <h2>Impact Investment in New Zealand</h2>
+                <p class="lead">It's not possible for members of the public to invest in impact yet. We need your help
+                    to change this. </p>
+                <p>Currently there are some New Zealand impact investment funds available to professional investors,
+                    but not available yet to members of the public. We want to demonstrate that there is public
+                    demand for impact investing and give the public opportunities to invest with positive social
+                    and/or environmental impact.</p>
+                <p>Change will be driven by consumer demand, so if enough people say that they want impact
+                    investing, we can make it happen.</p>
+                <a class="button" href="https://mindfulmoney.nz/pages/14/join-mailing-list/">Join Mindful Money’s
+                    campaign for impact investment</a>
+
+            </div>
+        </section>
+
+        <section id="how-to-switch">
+            <div class="section-intro">
+                <h1>How do I switch to Ethical Investing?</h1>
+                <p class="lead">It’s easy, free, and quick to switch</p>
+            </div>
+            <p>We hear from so many people that they would like to switch but they are put off by thinking it is
+                going to be really difficult. That’s why we set up the Mindful Money website, we have done the
+                research so you don’t have to.</p>
+            <figure>
+                <blockquote>
+                    <p>I would like everyone to check what their Kiwisaver is invested in because it’s much easier
+                        to find out than you think.</p>
+                </blockquote>
+                <figcaption>— Sandra Rogers</figcaption>
+            </figure>
+
+            <h2>Choose a fund that suits you</h2>
+            <p class="lead">Use Mindful Money’s <a href="https://mindfulmoney.nz/kiwisaver/finder/.">Fund Finder
+                    tool</a> to find the funds that meet your criteria.&nbsp;There are three easy steps:</p>
+
+            <ol class="eig-box  eig-bright-box">
+                <li>What investment approach do you want to use?</li>
+                <li>What values are most important to you?</li>
+                <li>What is your risk profile? </li>
+            </ol>
+            <p>Being prudent means taking the time to find out about the options and only investing when you have
+                carefully considered your options. Finding out your risk profile is one of the crucial steps in your
+                investment decision.</p>
+            <figure>
+                <blockquote>
+                    <p>Each person has their own priorities and that’s where I think the Mindful Money website’s
+                        pretty cool.</p>
+                </blockquote>
+                <figcaption>— Mary Holm</figcaption>
+            </figure>
+            <h3>Investments are often put into different categories, depending on the level of risk:</h3>
+
+            <ul>
+                <li><strong>Defensive </strong>– a high proportion of relatively safe investments (such as cash or
+                    short term deposits)</li>
+                <li><strong>Conservative </strong>– a high proportion of debt (generally bonds) and less shares</li>
+                <li><strong>Balanced </strong>– a balance of debt and shares</li>
+                <li><strong>Growth </strong>– mainly company shares, generally listed on seigk exchanges</li>
+                <li><strong>Aggressive </strong>– some high growth, high-risk shares including small unlisted
+                    companies or property</li>
+            </ul>
+            <p>If you are young and saving for the long term, you may choose to accept higher risks (on the basis
+                that the highs and lows even out over time). Those who are approaching retirement generally prefer
+                less risk, to ensure their savings are protected.</p>
+            <p>There is a very handy guide to finding out your risk profile on the <a
+                    href="https://sorted.org.nz/guides/saving-and-investing/our-investor-type/">Sorted website</a>.
+            </p>
+
+            <h2>Make the switch</h2>
+            <p>Once you’ve selected your criteria, the Mindful Money website shows you four options. You can find
+                out more, and when you’re ready, choose to invest or switch your KiwiSaver fund. </p>
+
+            <div class="cta-inset">
+                <h2>Find a fund that fits your values.</h2>
+                <p class="lead">It's quick and easy, and it’s free!</p>
+                <a href="https://mindfulmoney.nz/kiwisaver/finder/" class="button">Find a Fund</a>
+                <p><small>The Referral page will link you directly with the fund provider’s application form. You need
+                        to have
+                        your driver’s license or passport handy in order to complete the form. Then that’s it. You don’t
+                        need to contact your bank or even remember the name of your current fund. The fund provider will
+                        do
+                        the rest. </small></p>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
